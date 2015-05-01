@@ -7,6 +7,14 @@ This is being created as a learning excercise in Lua.  Therefore it is subject t
 
 Tests are written using [busted](http://olivinelabs.com/busted/)
 
+## Usage
+
+Add itertools.lua to you project directory and require it.
+
+```lua
+local itertools = require 'itertools'
+```
+
 ## Testing
 
 Once [busted](http://olivinelabs.com/busted/) is installed, simply run ```$ busted``` from the project directory.
