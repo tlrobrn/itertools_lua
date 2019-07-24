@@ -46,7 +46,7 @@ local function nth_values(n, arrays)
 end
 
 
-function zip_iter(state)
+local function zip_iter(state)
   if state.pos > state.max then return nil end
 
   local values = nth_values(state.pos, state.arrays)
